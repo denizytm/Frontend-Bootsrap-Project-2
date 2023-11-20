@@ -1,0 +1,344 @@
+.link-logo {
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight:700;
+    color: #092032;
+}
+
+a{
+    color: #092032;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important; 
+}
+
+.intro {
+    margin-bottom: 40px;
+}
+
+.intro h6 {
+    
+    color: #ff4d29;
+}
+
+.intro p {
+    max-width: 500px;
+    margin: auto;
+}
+
+
+.top-nav p {
+   
+    color: white;
+    margin-bottom: 0;
+    margin-right: 16px;
+    display: inline-block;
+}
+
+.social-links a{
+    display: inline-flex;
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255,255,255,0.3);
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links a:hover {
+    background-color: white;
+    color: #ff4d29;
+}
+
+.navbar {
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    color: #092032;
+}
+
+.navbar-brand:hover {
+    color: #092032;
+}
+
+.navbar span {
+    color: #ff4d29;
+}
+
+.btn {
+    padding: 9px 24px;
+    font-weight: 500;
+}
+
+.btn-brand {
+    background-color: #ff4d29;
+    color: white;
+    border-color: #ff4d29;
+}
+
+.btn-brand:hover{
+    color: white;
+    background-color: #d63e20;
+}
+
+.navbar .navbar-nav .nav-link:hover ,
+.navbar .navbar-nav .nav-link:active {
+    color: #ff4d29;
+}
+
+.nav-link {
+    color: #092032;
+}
+
+.slide1 {
+    background: linear-gradient(rgba(9,32,50,0.4) , rgba(9,32,50,0.4)) , url(img/bg_banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slide2 {
+    
+    background: linear-gradient(rgba(9,32,50,0.4) , rgba(9,32,50,0.4)) , url(img/bg_banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    display: grid;
+    place-items: center;
+    background-color: rgba(255,255,255,0.2) !important;
+    margin-top: -30px !important;
+    color: white !important;
+    font-weight: 700 !important;
+    border-radius: 30px !important;
+    font-size: 12px !important;
+    transition: all 0.4s ease;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    background-color: #ff4d29 !important;
+}
+
+.owl-prev {
+    left: 0;
+}
+
+
+.owl-next {
+    right: 0;
+}
+
+.active {
+    color: orangered;
+}
+
+.info-box {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+
+.info-box img {
+    width: 90px;
+    margin-right: 24px;
+}
+
+#milestone {
+    background: linear-gradient( rgba(255, 77, 41, 0.9) , rgba(255, 77,41,0.9) ) , url(img/bg_banner2.jpg);
+    background-position: center;
+}
+
+#milestone .display-4 ,
+#milestone p {
+  color: white;  
+}
+
+#milestone  .display-4 {
+    font-weight: 700;
+}
+
+.service-box {
+    padding: 32px;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.service-box img {
+    width: unset;
+    
+}
+
+.service-box h5 {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.project {
+    position: relative;
+}
+
+.project .overlay {
+    background: linear-gradient( rgba(9,32,50,0), rgba(9,32,50,0.8));
+    position: absolute;
+    height: 240px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.project .content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 32px;
+}
+
+.project h1,
+.project h6  {
+    color: white;
+}
+
+.project h6 {
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.project h6:before {
+    content: '';
+    height: 2px;
+    width: 24px;
+    background-color: #ff4d29;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+#team-members p {
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+#team-photos h5 {
+    margin-top: 6px;
+}
+
+#team-photos p {
+    margin-top: -3px;
+}
+
+#team-photos .overlay {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.6s ease-in-out;
+    gap: 5px;
+    top: -10%;
+    left: 0;
+}
+
+#team-photos div:hover .overlay {
+    position: absolute;
+    background: rgba(255, 77, 41, 0.9);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+#team-photos div:hover a{
+    display: inline-flex;
+
+}
+
+#team-photos div a:hover{
+    background-color: white;
+    color: #ff4d29;
+}
+
+#team-photos .overlay a{
+    
+    display: none;
+    color: white;
+    border-radius: 50px;
+    font-size: 13px;
+ 
+}
+
+#team-photos .social-links {
+    position: absolute;
+    height: 100px;
+    bottom: 100px;
+    
+}
+
+.workers-section {
+    background: linear-gradient(rgba(9,32,50,0.8) , rgba(9,32,50,0.8)) , url(img/bg_banner1.jpg);
+    background-position: center;
+}
+
+#workers-carousel div p {
+    display: block;
+    margin: auto;
+    max-width: 500px;
+}
+
+.owl-dot.active span{
+    background-color: red !important;
+}
+
+#footer {
+    background: linear-gradient(rgba(9,32,50,0.8) , rgba(9,32,50,0.8)) , url(img/bg_banner1.jpg);
+    background-position: center;
+}
+
+#footer .social-links {
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+#footer .social-links a:hover{
+    color: #ff4d29;
+}
+
+
+#footer .social-links a{
+    padding: 20px;
+    color: white;
+}
+
+.cross{
+    width: 100%;
+    background: linear-gradient(rgba(9,32,50,0.8) , rgba(9,32,50,0.8)) ;
+    height: 1px;
+    margin-top: 40px;
+}
